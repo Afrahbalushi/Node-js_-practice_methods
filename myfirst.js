@@ -16,3 +16,11 @@ fs.appendFile('CodelineFile.txt', 'Codeline by Rihal !!!', function (err) {
   if (err) throw err;
   console.log('Saved!');
 });
+
+//to create empty file 
+var fs = require('fs');
+
+fs.open('newCodelineFile.txt', 'w', function (err, file) {
+  if (err) throw err;
+  console.log('Saved!');
+});
