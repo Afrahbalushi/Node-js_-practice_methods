@@ -1,4 +1,5 @@
-//create date ex: 14 August , 1996 --> the day, month, year will be written in url
+
+//write the date (day/month/year) = ex: 14 August , 1996
 var http = require('http');
 var url = require('url');
 
